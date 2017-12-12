@@ -8,11 +8,11 @@ Funcionalidade: Cadastrar novo usuário
 
 Cenário: Novo cadastro
 Dado que estou logado como Admin
-Quando clico em add employee
+Quando solicito um novo cadastro
 E preencho os campos necessários
 Então o novo empregado é cadastrado
 
 Cenário: Edição de cadastro
-Dado que estou logado no Admin
+Dado que estou logado como Admin
 Quando Encontro o cadastro a ser editado
 Então Tenho acesso a tela de edição
